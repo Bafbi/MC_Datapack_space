@@ -1,0 +1,44 @@
+{
+  "surface_builder": "minecraft:nope",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "none",
+  "category": "none",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 590874,
+    "fog_color": 4274513,
+    "water_color": 4156943,
+    "water_fog_color": 329011,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecarft:conduit_particle"
+      },
+      "probability": 0.5
+    }
+  },
+  "starts": [
+    "minecraft:end_city"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

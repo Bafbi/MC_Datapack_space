@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "space:space/sp_main",
+        "space:sp_stations/stations_main",
+        "space:undropable/undrop",
+        "space:personal_id/pid_main",
+        "space:distance_calcul/distance_main",
+        "space:spaceship/spaceship_main"
+    ]
+}
